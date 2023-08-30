@@ -13,7 +13,7 @@ export default function Home() {
         <aside className="ml-20 z-10 flex-1 flex items-center justify-center">
           <div className="relative z-0 flex flex-col gap-5">
             <Image src="/someshit.svg" alt="Logo" width={200} height={200} className='absolute top-0 right-0 translate-x-1/2 -translate-y-1/3 z-0' />
-            <h1 className='text-4xl md:text-7xl text-[#F4F1EA] shadow-[#3862AE] text-shadow-lg font-outline-8 font-bold z-10 relative'>
+            <h1 className='text-4xl font-bossa md:text-7xl text-[#F4F1EA] shadow-[#3862AE] text-shadow-lg font-outline-8 font-bold z-10 relative'>
               Grand Launching
               <br />
               Depok Kita UI
@@ -34,11 +34,15 @@ export default function Home() {
         </aside>
         <aside className='flex-1'></aside>
       </section>
-      <section id="sosvent" className='relative p-10 min-h-screen'>
+      <section id="sosvent" className='relative mt-5 p-10 min-h-screen'>
         <aside className="p-5 shadow-md bg-white rounded-lg h-full">
-          <h1 className='text-4xl md:text-7xl font-bold text-blue-950 text-center'>Social Event Timeline</h1>
+          <h1 className='text-4xl font-bossa md:text-7xl font-bold text-blue-950 text-center'>Social Event Timeline</h1>
+          <div className='p-5 mt-10 overflow-x-scroll'>
+            <img src="/timeline.svg" className='min-w-[700px] w-full' />
+          </div>
         </aside>
       </section>
+      <img src="/stripe.svg" className='w-full' />
       {/* <div className="w-[1080px] h-[486px] relative">
         <div className="left-[403px] top-0 absolute text-center text-blue-950 text-[64px] font-bold">Artikel</div>
         <div className="w-1 h-[372px] left-[538px] top-[114px] absolute bg-zinc-300 rounded-[20px]"></div>

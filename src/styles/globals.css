@@ -26,3 +26,8 @@
     -webkit-text-stroke: 2.5px var(--tw-shadow-color);
   }
 }
+
+@font-face {
+  font-family: "Bossa";
+  src: url(/Bossa-ExpandedBold.woff) format("woff");
+}
