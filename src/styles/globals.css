@@ -3,3 +3,26 @@
 @tailwind utilities;
 
 
+@layer utilities {
+  .text-shadow-md {
+    text-shadow: 2px 2px 0 var(--tw-shadow-color);
+  }
+  .text-shadow-lg {
+    text-shadow: -8px 8px 0 var(--tw-shadow-color);
+  }
+  .-text-shadow-lg {
+    text-shadow: 8px -8px 0 var(--tw-shadow-color);
+  }
+  .font-outline-2 {
+    -webkit-text-stroke: 0.5px var(--tw-shadow-color);
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 1px var(--tw-shadow-color);
+  }
+  .font-outline-6 {
+    -webkit-text-stroke: 1.5px var(--tw-shadow-color);
+  }
+  .font-outline-8 {
+    -webkit-text-stroke: 2.5px var(--tw-shadow-color);
+  }
+}
