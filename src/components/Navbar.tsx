@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Image src="/logo.svg" alt="Logo" width={48} height={48} className='w-8 h-8' />
                 <h1 className='font-semibold font-bossa text-stone-800 text-xl sm:text-2xl'>Depok Kita</h1>
             </div>
-            <ul className={`flex flex-col sm:flex-row fixed sm:relative bg-white top-0 ${open ? "left-0" : "-left-full"} transition-all duration-500 w-full h-screen sm:h-auto items-center font-jkt_semibold text-stone-700 gap-3 justify-evenly font-medium md:text-base flex-1`}>
+            <ul className={`flex flex-col sm:flex-row fixed sm:static bg-white top-0 ${open ? "left-0" : "-left-full"} transition-all duration-500 w-full h-screen sm:h-auto items-center font-jkt_semibold text-stone-700 gap-3 justify-evenly font-medium md:text-base flex-1`}>
                 <li className="sm:hidden">
                     <div className="flex items-center gap-3">
                         <Image src="/logo.svg" alt="Logo" width={48} height={48} />

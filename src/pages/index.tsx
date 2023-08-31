@@ -15,22 +15,18 @@ export const Home = () => {
       <Hero />
       <Timeline />
       <Stripe />
-      {/* <div className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
-        Artikel
-      </div>
-      <div className='gap-10 mt-5 mb-28 flex h-max items-center justify-center mx-16'>
-        <div className='flex flex-col gap-10'>
+      <section className='p-5'>
+        <div className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
+          Artikel
+        </div>
+        <div className='gap-4 sm:gap-6 md:gap-10 my-5 grid grid-cols-1 sm:grid-cols-2 h-max items-center justify-center md:mx-10'>
+          <Article />
+          <Article />
           <Article />
           <Article />
         </div>
-        <div className="w-3 h-96 bg-zinc-300 rounded-2xl" />
-        <div className='flex flex-col gap-10'>
-          <Article />
-          <Article />
-        </div>
-      </div> */}
-      <Stripe />
-
+        <Stripe />
+      </section>
     </main>
   )
 }
