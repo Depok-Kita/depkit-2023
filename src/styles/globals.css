@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer utilities {
   .text-shadow-md {
     text-shadow: 2px 2px 0 var(--tw-shadow-color);
@@ -30,4 +29,16 @@
 @font-face {
   font-family: "Bossa";
   src: url(/Bossa-ExpandedBold.woff) format("woff");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans";
+  src: url(/PlusJakartaSans-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans Bold";
+  src: url(/PlusJakartaSans-Bold.woff) format("woff");
+}
+@font-face {
+  font-family: "Plus Jakarta Sans SemiBold";
+  src: url(/PlusJakartaSans-SemiBold.woff) format("woff");
 }

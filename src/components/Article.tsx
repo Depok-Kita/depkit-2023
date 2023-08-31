@@ -1,6 +1,6 @@
 export const Article = () => {
     return (
-        <div className='shadow-xl rounded-2xl w-full bg-white flex px-5 py-6 gap-4 border-blue-950 border-solid border-2'>
+        <div className='shadow-xl font-jkt rounded-2xl w-full bg-white flex px-5 py-6 gap-4 border-blue-950 border-solid border-2'>
             <div className="align-middle w-52 max-w-lg h-28 bg-zinc-300 rounded-2xl" />
             <div className='flex flex-col gap-2'>
                 <div className='text-neutral-400 text-xs font-semibold'>

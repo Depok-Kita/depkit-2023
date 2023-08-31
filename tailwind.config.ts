@@ -15,6 +15,9 @@ const config: Config = {
       },
       fontFamily: {
         bossa: ["Bossa", 'sans-serif'],
+        jkt: ["Plus Jakarta Sans", "sans-serif"],
+        jkt_bold: ["Plus Jakarta Sans Bold", "sans-serif"],
+        jkt_semibold: ["Plus Jakarta Sans SemiBold", "sans-serif"]
       }
     },
   },

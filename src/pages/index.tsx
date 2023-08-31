@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import { Article } from '@/components/Article'
+import Stripe from '@/components/Stripe'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,7 +22,7 @@ export const Home = () => {
               <br />
               2023
             </h1>
-            <div className="py-4 px-5 bg-[#3862AE] text-white rounded-lg">
+            <div className="py-4 px-5 font-jkt bg-[#3862AE] text-white rounded-lg">
               <p className='mb-3 text-xl'>
                 Pembukaan kegiatan pengabdian masyarakat
                 <br />
@@ -43,7 +44,7 @@ export const Home = () => {
           </div>
         </aside>
       </section>
-      <img src="/stripe.svg" className='w-full' />
+      <Stripe />
       <div className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
         Artikel
       </div>
@@ -58,7 +59,7 @@ export const Home = () => {
           <Article />
         </div>
       </div>
-      <img src="/stripe.svg" className='w-full' />
+      <Stripe />
 
     </main>
   )
