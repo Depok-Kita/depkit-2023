@@ -4,7 +4,7 @@
 
 @layer utilities {
   .text-shadow-md {
-    text-shadow: 2px 2px 0 var(--tw-shadow-color);
+    text-shadow: -6px 2px 0 var(--tw-shadow-color);
   }
   .text-shadow-lg {
     text-shadow: -8px 8px 0 var(--tw-shadow-color);
