@@ -21,7 +21,7 @@ export const Home = () => {
         </aside>
       </section>
       <Stripe />
-      <div className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
+      {/* <div className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
         Artikel
       </div>
       <div className='gap-10 mt-5 mb-28 flex h-max items-center justify-center mx-16'>
@@ -34,7 +34,7 @@ export const Home = () => {
           <Article />
           <Article />
         </div>
-      </div>
+      </div> */}
       <Stripe />
 
     </main>

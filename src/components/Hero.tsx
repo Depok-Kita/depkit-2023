@@ -5,10 +5,10 @@ export default function Hero() {
     return (
         <section className="w-full relative h-[calc(100vh-72px)] flex justify-center">
             <Image src="/hero.png" alt="Hero" layout="fill" objectFit="cover" className='brightness-[.6]' />
-            <aside className="z-10 mt-10 w-full flex items-center justify-center">
-                <div className=" w-full z-0 items-center h-1/2 flex flex-col gap-5">
+            <aside className="z-10 mt-10 w-full flex items-center justify-center overflow-hidden">
+                <div className=" w-full z-0 items-center h-1/2 flex flex-col gap-5 px-3">
                     <div className="relative">
-                        <Image src="/someshit.svg" alt="Logo" width={200} height={200} className='absolute w-[120px] lg:w-[200px] top-0 right-0 translate-x-1/2 -translate-y-1/3 z-0' />
+                        <Image src="/someshit.svg" alt="Logo" width={200} height={200} className='absolute w-[100px] lg:w-[200px] top-0 right-0 translate-x-1/2 -translate-y-1/3 z-0' />
                         <h1 className='text-4xl bottom-20 w-full font-bossa_black md:text-7xl text-[#F4F1EA] shadow-[#3862AE] text-shadow-lg font-outline-8 font-black z-10 relative'>
                             Grand Launching
                             <br />
@@ -17,7 +17,7 @@ export default function Hero() {
                             2023
                         </h1>
                     </div>
-                    <div className="py-4 absolute bottom-0 px-5 w-full font-jkt bg-[#3862AE] text-white rounded-t-3xl">
+                    <div className="py-2 sm:py-4 absolute bottom-0 px-5 w-full font-jkt bg-[#3862AE] text-white rounded-t-3xl">
                         <Stripe />
                         <div className="flex flex-col items-center justify-center mb-5">
                             <p className='mb-3 text-2xl my-5 font-bold'>
