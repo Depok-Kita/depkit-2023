@@ -20,7 +20,7 @@ export default function Hero() {
                     <div className="py-2 sm:py-4 absolute bottom-0 px-5 w-full font-jkt bg-[#3862AE] text-white rounded-t-3xl">
                         <Stripe />
                         <div className="flex flex-col items-center justify-center mb-5">
-                            <p className='mb-3 text-2xl my-5 font-bold'>
+                            <p className='mb-3 text-lg md:text-2xl my-5 font-bold'>
                                 Pembukaan kegiatan pengabdian masyarakat
                                 <br />
                                 Departemen Sosial Masyarakat BEM UI 2022
