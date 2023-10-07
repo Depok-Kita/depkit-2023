@@ -40,7 +40,7 @@ export const Home = () => {
       }
     });
     const data = await res.json();
-    setArticles(data.data.articles);
+    setArticles(data?.data?.articles);
   }
   useEffect(() => {
     getArticles();
@@ -53,14 +53,14 @@ export const Home = () => {
       <Hero />
       <Timeline />
       <Stripe />
-      <section className='p-5 min-h-screen flex-col flex'>
-        <h1 className='text-center font-bossa mt-10 text-blue-950 font-bold text-[64px]'>
+      <section id='artikel' className='p-5 min-h-screen flex-col flex'>
+        <h1 className='text-4xl font-bossa md:text-7xl font-bold text-blue-950 text-center'>
           Artikel
         </h1>
         <aside className="flex-1">
 
           {
-            articles.length > 0 ?
+            articles?.length > 0 ?
               <ul className='gap-4 sm:gap-6 md:gap-10 my-5 grid grid-cols-1 sm:grid-cols-2 items-stretch h-full justify-center md:mx-10'>
                 {articles.slice(0, 4).map((article, index) => (
                   <Article key={index} {...article} />
@@ -74,10 +74,12 @@ export const Home = () => {
         </aside>
         <Stripe />
       </section>
-      {/* <section> */}
-      {/* <iframe src="https://kitabisa.com/campaign/sepuluhribuuntukkampungcipayung?utm_source=socialsharing_donor_web_null&utm_medium=share_campaign_copas&utm_campaign=share_detail_campaign"></iframe> */}
-      {/* </section> */}
-      {/* <div style={{ position: "relative", paddingBottom: "56.25%", paddingTop: "35px", height: 0, overflow: "hidden" }}><iframe allowFullScreen={true} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", }} src="https://heyzine.com/flip-book/4aeb67d04c.html"></iframe></div> */}
+      {/* <section>
+        <h1 className='text-4xl font-bossa md:text-7xl font-bold text-blue-950 text-center'>
+          Proposal Eksternal
+        </h1>
+        <div style={{ position: "relative", paddingBottom: "56.25%", paddingTop: "35px", height: 0, overflow: "hidden" }}><iframe allowFullScreen={true} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", }} src="https://heyzine.com/flip-book/4aeb67d04c.html"></iframe></div>
+      </section> */}
     </main>
   )
 }

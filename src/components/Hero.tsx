@@ -17,17 +17,15 @@ export default function Hero() {
                             2023
                         </h1>
                     </div>
-                    <div className="py-2 sm:py-4 absolute bottom-0 px-5 w-full font-jkt bg-[#3862AE] text-white rounded-t-3xl">
+                    <div id="donasi" className="py-2 sm:py-4 absolute bottom-0 px-5 w-full font-jkt bg-[#3862AE] text-white rounded-t-3xl">
                         <Stripe />
                         <div className="flex flex-col items-center justify-center mb-5">
-                            <p className='mb-3 text-lg md:text-2xl my-5 font-bold'>
-                                Pembukaan kegiatan pengabdian masyarakat
-                                <br />
-                                Departemen Sosial Masyarakat BEM UI 2022
+                            <p className='mb-5 text-lg md:text-2xl text-center my-5 font-bold'>
+                                10 Ribu Untuk Kampung KB Cipayung Jaya
                             </p>
-                            <button className='text-[#3862AE] bg-white font-bold text-lg px-5 py-2 rounded-full shadow-lg hover:bg-[#2E4A7E] transition-colors duration-300'>
-                                Daftar Sekarang
-                            </button>
+                            <a href="https://kitabisa.com/campaign/sepuluhribuuntukkampungcipayung" target="_blank" className='text-[#3862AE] bg-white font-bold text-lg px-5 py-2 rounded-full shadow-lg hover:bg-[#2E4A7E] transition-colors duration-300'>
+                                Yuk Gabung!
+                            </a>
                         </div>
                     </div>
                 </div>
