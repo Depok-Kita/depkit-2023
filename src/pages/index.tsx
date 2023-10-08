@@ -74,12 +74,17 @@ export const Home = () => {
         </aside>
         <Stripe />
       </section>
-      {/* <section>
+      <section>
         <h1 className='text-4xl font-bossa md:text-7xl font-bold text-blue-950 text-center'>
           Proposal Eksternal
         </h1>
-        <div style={{ position: "relative", paddingBottom: "56.25%", paddingTop: "35px", height: 0, overflow: "hidden" }}><iframe allowFullScreen={true} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", }} src="https://heyzine.com/flip-book/4aeb67d04c.html"></iframe></div>
-      </section> */}
+        <div style={{ position: "relative", paddingBottom: "56.25%", paddingTop: "35px", height: 0, overflow: "hidden" }}>
+          <iframe allowFullScreen={true} style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "100%", }} src="https://heyzine.com/flip-book/19e67703b1.html">
+          </iframe>
+        </div>
+      </section>
+      <Stripe />
+
     </main>
   )
 }
